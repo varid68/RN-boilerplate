@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import { View, Text, StatusBar, Image, StyleSheet } from 'react-native'
-import { StackActions } from '@react-navigation/native'
+// import { StackActions } from '@react-navigation/native'
 import { DEEP, WHITE } from 'constants/Colors'
 import { ITEMS_CENTER } from 'constants/Styles'
 
 
 const SplashScreen = ({ navigation }) => {
   useEffect(() => {
-    navigation.dispatch(StackActions.replace('Kosongan'))
+    // navigation.dispatch(StackActions.replace('Kosongan'))
   }, [])
 
   return (
@@ -40,9 +40,5 @@ const styles = StyleSheet.create({
     marginTop: 10
   }
 })
-
-SplashScreen.navigationOptions = {
-  header: null
-}
 
 export default SplashScreen

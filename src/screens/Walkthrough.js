@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react'
-import { View, ImageBackground, StatusBar } from 'react-native'
+import { View, ImageBackground, StatusBar, TouchableOpacity } from 'react-native'
 import Text from 'components/Text'
 import Swiper from 'react-native-swiper'
 import { StackActions } from '@react-navigation/native'
 import { WP100, HP100, WP50, WP40, WP80, WP5, WP25 } from 'constants/Sizes'
 import { OPACITY_LIGHT, LUCKY_POINT, WHITE } from 'constants/Colors'
-import { TouchableOpacity } from 'react-native-gesture-handler'
 import LinearGradient from 'react-native-linear-gradient'
 import { storeItemStorage } from 'actions/storage'
 

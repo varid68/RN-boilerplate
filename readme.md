@@ -42,7 +42,6 @@
 │   │   ├── Sizes.js (screen ratio)
 │   |   └── Styles.js (general styles for components)
 │   ├── i18n (translate label multi language)
-│   ├── navigations
 │   |   └── AppNavigator.js (register all screens)
 │   ├── redux
 │   │   ├── reducers (define all reducers)
