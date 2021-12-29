@@ -1,11 +1,15 @@
 import React, { useEffect } from 'react'
-import { View, Text, StatusBar, Image, StyleSheet } from 'react-native'
+import {
+  View, Text, StatusBar, Image, StyleSheet
+} from 'react-native'
 // import { StackActions } from '@react-navigation/native'
 import { DEEP, WHITE } from 'constants/Colors'
 import { ITEMS_CENTER } from 'constants/Styles'
 
+const images = require('../assets/images/splashscreen.png')
 
-const SplashScreen = ({ navigation }) => {
+
+const SplashScreen = () => {
   useEffect(() => {
     // navigation.dispatch(StackActions.replace('Kosongan'))
   }, [])
@@ -15,7 +19,7 @@ const SplashScreen = ({ navigation }) => {
       <StatusBar hidden={false} backgroundColor={DEEP} />
       <Image
         style={styles.img}
-        source={require('../assets/images/splashscreen.png')} />
+        source={images} />
       <Text style={styles.simovie}>Si movie</Text>
     </View>
   )
